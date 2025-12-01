@@ -1,0 +1,60 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ecd5e6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 38px;
+}
+
+.container {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.produtos {
+    display: grid;
+    gap: 80px;
+}
+
+.card {
+    background: rgb(194, 178, 193);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: center ;
+    border-radius: 9px;
+    background: #ddd;
+}
+
+.nome {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #dd1fcd;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    background: #740160;
+    color: rgb(223, 204, 204);
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
